@@ -1,0 +1,16 @@
+{
+	"code" : "capacitor",
+	"class" : "capacitor",
+	"entityClass" : "capacitor",
+	"creativeinventory" : {
+		"general" : ["*"]
+	},
+	"blockmaterial" : "Metal",
+	"drawtype" : "Cube",
+	"textures" : {
+		"all" : {
+			"base" : "block/capacitor"
+		}
+	},
+	"resistance" : 3.5
+}

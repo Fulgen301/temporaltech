@@ -1,0 +1,11 @@
+{
+	"type" : "code",
+	"modid" : "temporaltech",
+	"name" : "Temporal Tech",
+	"authors" : ["Fulgen"],
+	"version" : 1.0,
+	"dependencies" : {
+		"game" : "",
+		"survival" : ""
+	}
+}

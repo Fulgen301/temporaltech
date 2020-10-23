@@ -1,0 +1,37 @@
+{
+  "code": "fridge",
+  "entityclass": "fridge",
+  "behaviors": [
+    { "name": "Lockable" },
+    { "name": "Container" }
+  ],
+
+  "attributes": {
+    "partialAttachable": true,
+    "inventoryClassName": "chest",
+    "drop": true,
+    "quantitySlots": 12,
+    "storageType": 32,
+    "retrieveOnly" :  false,
+    "openSound": "game:sounds/block/vesselopen",
+    "closeSound": "game:sounds/block/vesselclose"
+  },
+  "drawtype": "Cube",
+  "texture": {
+    "base": "block/fridge"
+  },
+  "blockmaterial": "Metal",
+  "creativeinventory": {
+    "general": [ "*" ]
+  },
+  "replaceable": 1000,
+  "resistance": 0.8,
+  "maxStackSize": 4,
+  "lightAbsorption": 0,
+  "sounds": {
+    "walk": "walk/stone",
+    "break": "block/ceramicplace",
+    "hit": "block/ceramichit",
+    "place": "block/ceramicplace"
+  }
+}
